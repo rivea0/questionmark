@@ -4,6 +4,9 @@
 
 > Retrieve an answer to a question given the context of a webpage or text, using a pretrained machine learning model that runs in the browser.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aeece392-a258-4fb7-befa-2780f3577e21/deploy-status)](https://app.netlify.com/sites/thequestionmark/deploys)
+
+
 QuestionMark uses HuggingFace's [Transformers.js](https://huggingface.co/docs/transformers.js) under the hood.
 
 The question-answering model [Xenova/distilbert-base-cased-distilled-squad](https://huggingface.co/Xenova/distilbert-base-cased-distilled-squad) is used to retrieve the answer.
