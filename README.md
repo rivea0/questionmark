@@ -8,6 +8,23 @@ QuestionMark uses HuggingFace's [Transformers.js](https://huggingface.co/docs/tr
 
 The question-answering model [Xenova/distilbert-base-cased-distilled-squad](https://huggingface.co/Xenova/distilbert-base-cased-distilled-squad) is used to retrieve the answer.
 
+### Usage
+
+**Loading models for the first time can take a while.**
+
+For example, asking a question to the author of a blog post:
+
+https://github.com/user-attachments/assets/a33f054c-a57e-4f89-a037-e1af92d20013
+
+The subsequent retrieval of answers is much quicker:
+
+
+
+
+https://github.com/user-attachments/assets/41cbd980-4b8b-4b44-a548-865a419f2af3
+
+
+
 Note that it is an *extractive question-answering* model, so the answer is not generated but extracted from the given context. Therefore, it tends to be [better with factoid questions instead of open-ended ones](https://huggingface.co/learn/nlp-course/chapter7/7#question-answering).
 A confidence score for the predicted answer is shown along with the resulting answer.
 
